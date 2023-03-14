@@ -11,8 +11,8 @@ Surge 4.2.0+ 脚本配置:
 
 [Script]
 # > Bing積分
-Bing積分cookie = requires-body=0,type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path=https://raw.githubusercontent.com/yuskang/script_tial/master/Script/bingPoint.js
-Bing積分 = type=cron,cronexp="0 10 0 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/yuskang/script_tial/master/Script/bingPoint.js
+Bing積分cookie = requires-body=0,type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path=https://raw.githubusercontent.com/yuskang/script_trial/main/Script/BingPoint.js
+Bing積分 = type=cron,cronexp="0 10 0 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/yuskang/script_trial/main/Script/BingPoint.js
 
 */
 
@@ -103,7 +103,7 @@ if(!lk.isExecComm) {
             ],
             "keys": [bingPointCookieKey]
         }, {
-            "script_url": "https://github.com/yuskang/script_trial/blob/master/Script/bingPoint.js",
+            "script_url": "https://github.com/yuskang/script_trial/blob/main/Script/BingPoint.js",
             "author": "@yuskang",
             "repo": "https://github.com/yuskang/script_trial",
         })
