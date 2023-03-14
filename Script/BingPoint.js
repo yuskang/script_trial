@@ -113,7 +113,7 @@ if(!lk.isExecComm) {
 
 function getCookie() {
     if (lk.isGetCookie(/\/rewards\.bing\.com/)) {
-        lk.log(`开始获取cookie`)
+        lk.log(`開始獲取cookie`)
         try {
             const bingHeader = JSON.stringify($request.headers.cookie)
             if (!!bingHeader) {
